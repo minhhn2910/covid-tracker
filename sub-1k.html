@@ -243,7 +243,7 @@
       console.log(countries_list);
       console.log(countries_list_sub1k.length);
 
-      drawchart(countries_list, countries_list_sub1k);
+      drawchart(countries_list_sub1k, countries_list_sub1k);
 
   });
 
@@ -391,7 +391,7 @@
         <input id="range" type="range" min="1" max="14" value="3" step="1">
      </div>
 
-<p> Countries with &gt 1k confirmed cases in total, data automatically refreshed daily from Johns Hopkins CSSE : <a href ="https://github.com/CSSEGISandData/COVID-19" > Reference </a>
+<p> Countries with 100->1k confirmed cases in total, data automatically refreshed daily from Johns Hopkins CSSE : <a href ="https://github.com/CSSEGISandData/COVID-19" > Reference </a>
 </p>
 <div id="my_dataviz"></div>
 
@@ -399,8 +399,7 @@
 
 <p>
 
-  For countries with less than 1k confirmed cases: <a href = "https://minhhn2910.github.io/covid-tracker/sub-1k.html" > Countries with less than 1k confirmed cases </a>
-  <br>
+
   Totally static website run on client side. Feel free to clone/edit/include on your site.
   <br>
   Coded overnight by minhhn2910@github. Bug & pull request are welcome : <a href = "https://github.com/minhhn2910/covid-tracker" > covid-tracker repository </a>
