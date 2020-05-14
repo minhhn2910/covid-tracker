@@ -149,7 +149,7 @@
           for (j = 0; j < n2; j ++)
             australia_sum_idx2 += values_[values_.length -1 - n1 -j ] - values_[values_.length -2 - n1 - j];
         }
-        else if (parseInt(values_[values_.length -1 ]) > 1000){
+        else if (parseInt(values_[values_.length -1 ]) > 5000){
           var sum_idx1 = 0;
           var sum_idx2 = 0;
 
@@ -184,7 +184,7 @@
 
         }
 
-        else if ((parseInt(values_[values_.length -1 ]) > 100 ) && (values_[1]!= "France" )  && (values_[1]!= "United Kingdom")){
+        else if ((parseInt(values_[values_.length -1 ]) > 500 ) && (values_[1]!= "France" )  && (values_[1]!= "United Kingdom")){
           var sum_idx1 = 0;
           var sum_idx2 = 0;
 
@@ -396,7 +396,7 @@
         <input id="range" type="range" min="1" max="14" value="3" step="1">
      </div>
 
-<p> Countries with 100->1k confirmed cases in total, data automatically refreshed daily from Johns Hopkins CSSE : <a href ="https://github.com/CSSEGISandData/COVID-19" > Reference </a>
+<p> Countries with 500->5k confirmed cases in total, data automatically refreshed daily from Johns Hopkins CSSE : <a href ="https://github.com/CSSEGISandData/COVID-19" > Reference </a>
 </p>
 <div id="my_dataviz"></div>
 
