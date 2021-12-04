@@ -149,7 +149,7 @@
           for (j = 0; j < n2; j ++)
             australia_sum_idx2 += values_[values_.length -1 - n1 -j ] - values_[values_.length -2 - n1 - j];
         }
-        else if (parseInt(values_[values_.length -1 ]) > 100000){
+        else if (parseInt(values_[values_.length -1 ]) > 500000){
           var sum_idx1 = 0;
           var sum_idx2 = 0;
 
@@ -184,7 +184,7 @@
 
         }
 
-        else if (parseInt(values_[values_.length -1 ]) > 10000){
+        else if (parseInt(values_[values_.length -1 ]) > 50000){
           var sum_idx1 = 0;
           var sum_idx2 = 0;
 
@@ -396,7 +396,7 @@
         <input id="range" type="range" min="1" max="14" value="3" step="1">
      </div>
 
-<p> Countries with &gt 100k confirmed cases in total, data automatically refreshed daily from Johns Hopkins CSSE : <a href ="https://github.com/CSSEGISandData/COVID-19" > Reference </a>
+<p> Countries with &gt 500k confirmed cases in total, data automatically refreshed daily from Johns Hopkins CSSE : <a href ="https://github.com/CSSEGISandData/COVID-19" > Reference </a>
 </p>
 <div id="my_dataviz"></div>
 
@@ -404,7 +404,7 @@
 
 <p>
 
-  For countries with less than 100k confirmed cases: <a href = "https://minhhn2910.github.io/covid-tracker/sub-1k.html" > Tracker for countries &lt 100k cases </a>
+  For countries with less than 500k confirmed cases: <a href = "https://minhhn2910.github.io/covid-tracker/sub-1k.html" > Tracker for countries &lt 500k cases </a>
   <br>
   Totally static website run on client side. Feel free to clone/edit/include on your site.
   <br>
